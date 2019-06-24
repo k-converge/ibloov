@@ -1,0 +1,155 @@
+@font-face{
+	font-family: Gothic;
+	src: url(../fonts/GOTHIC.ttf);
+}
+
+@font-face{
+	font-family: Gothic;
+	font-weight: bold;
+	src: url(../fonts/GOTHICB.TTF);
+}
+
+html, body{
+	margin: 0;
+	padding: 0;
+	width: auto;
+	height: 100%;
+	background-color: #fff;
+	font-family: Gothic;
+}
+
+#container{
+	min-height: 100%;
+	width: auto;
+	position: relative;
+	overflow-x: hidden;
+}
+
+header{
+   background: #fff;
+   border-bottom-style: solid;
+   border-bottom-width: 1px;
+   border-bottom-color: #012325;
+   padding-top: 10px;
+   padding-bottom: 5px;
+   padding-left: 50px;
+   padding-right: 50px;
+   width: auto;
+}
+
+header a{
+	font-size: 20px;
+	color: #012325;
+	text-decoration: none;
+	float: right;
+	margin-top: 35px;
+	-webkit-transition: color 0.25s ease-out;
+	-moz-transition: color 0.25s ease-out;
+	-o-transition: color 0.25s ease-out;
+	transition: color 0.25s ease;
+}
+
+header a:hover{
+	text-decoration: none;
+	color: #f7b152;
+}
+
+header img{
+	height: 60px;
+}
+
+#body{
+	padding-left: 50px;
+	padding-right: 50px;
+	padding-bottom: 70px;
+	padding-top: 75px;
+}
+
+footer{
+	background-color: #012325;
+	height: 60px;
+	width: 100%;
+	position: absolute;
+	bottom: 0;
+	margin: 0;
+	padding: 0;
+}
+
+button{
+	background-color: #f7b152;
+	-webkit-transition: background-color 0.25s ease-out;
+	-moz-transition: background-color 0.25s ease-out;
+	-o-transition: background-color 0.25s ease-out;
+	transition: background-color 0.25s ease;
+	outline: 0;
+	border: 0;
+	padding: 15px 15px 15px 15px;
+	border-radius: 30px;
+	color: #fff;
+	cursor: pointer;
+	font-size: 20px;
+	font-family: Gothic;
+}
+
+button:hover{
+	background-color: #f4bd75;
+}
+
+p{
+	font-family: Gothic;
+	font-size: 50px;
+	padding-bottom: 100px;
+}
+
+.smaller_p{
+	font-size: 30px;
+	padding-top: 100px;
+}
+
+#bloov_card{
+	width: 100%;
+}
+
+.login_form a{
+	display: block;
+	margin-bottom: 20px;
+	color: #000000;
+	cursor: pointer;
+}
+
+@media only screen and (max-width: 479px) {
+	
+	header{
+	   padding-left: 20px;
+	   padding-right: 20px;
+	   width: auto;
+	}
+	
+	#body{
+		width: auto;
+		padding-left: 40px;
+		padding-right: 40px;
+		padding-bottom: 100px;
+		padding-top: 40px;
+		text-align:center;
+	}
+	
+	header a{
+		font-size: 14px;
+		margin-top: 22px;
+	}
+	
+	header img{
+		height: 40px;
+	}
+	
+	p{
+		padding-bottom: 20px;
+	}
+	
+	.smaller_p{
+		font-size: 14px;
+		padding-top: 20px;
+	}
+	
+}

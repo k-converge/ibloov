@@ -1,0 +1,147 @@
+@font-face{
+	font-family: Gothic;
+	src: url(../fonts/GOTHIC.ttf);
+}
+
+html{
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 100%;
+}
+
+body{
+	background-color: #fff;
+	width: 100%;
+	background-repeat: no-repeat;
+	margin: 0;
+	padding: 0;
+	font-family: Gothic;
+}
+
+#header{
+	border-radius:0; 
+	margin-bottom: 100px; 
+	background-color: #fff;
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+	border-bottom-color: #012325;
+	padding-top: 10px;
+	padding-bottom: 5px;
+	padding-left: 50px;
+	padding-right: 50px;
+}
+
+a{
+	text-decoration: none;
+	cursor: pointer;
+}
+
+#myNavbar a{
+	font-family: Gothic;
+	font-size: 25px;
+	color: #012325;
+	background-color: #fff;
+	text-decoration: none;
+	-webkit-transition: color 0.25s ease-out;
+	-moz-transition: color 0.25s ease-out;
+	-o-transition: color 0.25s ease-out;
+	transition: color 0.25s ease;
+}
+
+#myNavbar a:hover{
+	text-decoration: none;
+	color: #f7b152;
+	background-color: #fff;
+}
+
+/*.navbar .navbar-nav {
+  display: inline-block;
+  float: right;
+  vertical-align: top;
+}*/
+
+.navbar .navbar-collapse {
+  text-align: center;
+}
+
+#menu_container{
+	width: 80%;
+}
+
+.meta-data{
+	text-align: center;
+	background-color: #fff;
+	font-family: Gothic;
+	cursor: pointer;
+}
+
+@media only screen and (max-width: 600px) {
+	body {
+		height: auto;
+	}
+	.meta-data{
+		font-size: 15px;
+		padding-top: 30px;
+		padding-bottom: 30px;
+	}
+	#myNavbar a{
+		font-size: 18px;
+	}
+}
+
+@media only screen and (min-width: 600px) {
+	body {
+		height: auto;
+	}
+	.meta-data{
+		font-size: 20px;
+		padding-top: 35px;
+		padding-bottom: 35px;
+	}
+	#myNavbar a{
+		font-size: 18px;
+	}
+}
+
+@media only screen and (min-width: 768px) {
+	body {
+		height: 100%;
+	}
+	.meta-data{
+		font-size: 20px;
+		padding-top: 35px;
+		padding-bottom: 35px;
+	}
+	#myNavbar a{
+		font-size: 25px;
+	}
+}
+
+@media only screen and (min-width: 1000px) {
+	body {
+		height: 100%;
+	}
+	.meta-data{
+		font-size: 28px;
+		padding-top: 45px;
+		padding-bottom: 45px;
+	}
+}
+
+.icon_container{
+	margin-bottom: 50px;
+	cursor: pointer;
+}
+
+.meta-image-container{
+	background: transparent;
+	width: 100%;
+	height: auto;
+}
+
+
+.meta-image-container img{
+	width: 100%;
+	height: auto;
+}

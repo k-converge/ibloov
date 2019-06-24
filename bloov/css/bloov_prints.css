@@ -1,0 +1,48 @@
+@font-face{
+	font-family: Gothic;
+	src: url(../fonts/GOTHIC.ttf);
+}
+
+html, 
+body{
+	border: 0;
+	padding: 0;
+	margin: 0;
+	height: auto;
+	width: 243px;
+}
+
+.card{
+	border: 0;
+	padding: 0;
+	margin: 0;
+	height: auto;
+	width: 3.375in;
+	height: 2.125in;
+	text-align: center;
+	font-size: 16px;
+	font-family: Gothic;
+	vertical-align: text-bottom;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: center;
+	background-size: cover;
+	margin-bottom: 5px;
+	overflow: hidden;
+	display: block;
+	color: #ffffff; /*default*/
+	background-color: #012325; /*default*/
+}
+
+.card p{
+	vertical-align: baseline;
+	padding-top: 170px;
+	margin: 0;
+}
+
+
+@media print {
+	.card{
+		page-break-after: always;
+	}
+}
