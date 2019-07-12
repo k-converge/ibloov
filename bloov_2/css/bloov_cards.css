@@ -1,0 +1,184 @@
+@font-face{
+	font-family: Gothic;
+	src: url(../fonts/GOTHIC.ttf);
+}
+
+button{
+	-webkit-transition: background-color 0.25s ease-out;
+	-moz-transition: background-color 0.25s ease-out;
+	-o-transition: background-color 0.25s ease-out;
+	transition: background-color 0.25s ease;
+	outline: 0;
+	border: 0;
+	padding: 13px 30px 13px 30px;
+	border-radius: 30px;
+	color: #fff;
+	cursor: pointer;
+	font-size: 20px;
+	font-family: Gothic;
+}
+
+.yellow_b{
+	background-color: #f7b152;
+}
+
+.yellow_b:hover{
+	background-color: #f4bd75;
+}
+
+.green_b{
+	background-color: #012325;
+}
+
+.green_b:hover{
+	background-color: #000e0f;
+}
+
+.input_container{
+	background-color: #ffffff;
+	padding: 10px 10px 10px 10px;
+	border-style: solid;
+	border-color: #012325;
+	border-radius: 40px;
+	height: auto;
+	border-width: 1px;
+	margin-bottom: 20px;
+	position: relative;
+	width: 100%;
+	cursor: pointer;
+}
+
+
+.cont{
+	background-color: #ffffff;
+	padding: 10px 10px 10px 10px;
+	border-style: solid;
+	border-color: #012325;
+	border-radius: 40px;
+	height: auto;
+	border-width: 1px;
+	margin-bottom: 20px;
+	position: relative;
+	width: 100%;
+	cursor: pointer;
+}
+
+.input_container select{
+	display: none;
+}
+
+.select-selected {
+	background-color: #ffffff;
+}
+
+.select-selected:after{
+	position: absolute;
+	content: "";
+	top: 14px;
+	right: 10px;
+	width: 0;
+	height: 0;
+}
+
+.select-selected.select-arrow-active:after {
+	top: 7px;
+}
+
+.select-items div,
+.select-selected {
+	color: #000000;
+	padding: 8px 16px;
+	border: 1px solid transparent;
+	cursor: pointer;
+}
+
+.select-items {
+	position: absolute;
+	background-color: #ffffff;
+	top: 100%;
+	left: 0;
+	right: 0;
+	z-index: 99;
+}
+
+.select-hide {
+	display: none;
+}
+
+.select-items div:hover, 
+.same-as-selected {
+	background-color: rgba(0, 0, 0, 0.1);
+}
+
+input[type='file']{
+	position: absolute;
+	top: -90000px;
+}
+
+.browse-btn{
+	background-color: #ffffff;
+	color: #000000;
+	padding: 8px 16px;
+	font-size: 14px;
+	width: auto;
+	text-align: left;
+}
+
+.file-info{
+	text-align: right;
+	color: #012325;
+	float: right;
+	margin-right: 10px;
+	margin-top: 10px;
+}
+
+input{
+	border: none; 
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"]{
+	width: 100%;
+	outline: 0;
+	font-family: Gothic;
+	padding: 8px 16px;
+}
+
+.cards_container{
+	width: 243px;
+	text-align: center
+}
+
+.cards_container p{
+	margin-bottom: 25px;
+}
+
+.card{
+	background-color: #012325;
+	border-radius: 8px;
+	width: 243px;
+	height: 153px;
+	text-align: center;
+	font-size: 14px;
+	font-family: Gothic;
+	vertical-align: text-bottom;
+	color: #ffffff; /*default*/
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: center;
+	background-size: cover;
+	margin-bottom: 5px;
+	overflow: hidden;
+}
+
+.card p{
+	vertical-align: baseline;
+	padding-top: 120px;
+	margin: 0;
+}
+
+#barcode_thumbnail{
+	color: #ffffff;
+	padding-top: 10px;
+}
